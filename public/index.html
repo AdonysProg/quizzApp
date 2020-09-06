@@ -10,6 +10,11 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -26,7 +31,23 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body
+    style="
+      background: linear-gradient(
+        90deg,
+        rgba(22, 0, 36, 1) 9%,
+        rgba(76, 12, 79, 1) 58%,
+        rgba(89, 13, 74, 1) 100%
+      );
+      background: linear-gradient(
+        90deg,
+        rgba(48, 8, 73, 1) 0%,
+        rgba(76, 12, 79, 1) 58%,
+        rgba(89, 13, 74, 1) 100%
+      );
+    "
+    class="flex justify-center items-center"
+  >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
