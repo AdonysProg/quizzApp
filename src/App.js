@@ -13,7 +13,7 @@ function App() {
         <button className="bg-white p-4 text-purple-800 font-bold rounded shadow mb-4">
           Para conocer la altitud o altura ortométrica; es decir, respecto al
           nivel del mar, se debe restar el valor de la anomalía a la altura
-          elipsoidal obteniendo en este caso una altitud de 160,3 metros.
+          elipsoidal obteniendo en este caso una altitud de 160,3 metros.metros.
         </button>
         <button className="bg-white p-4 text-purple-800 font-bold rounded shadow mb-4">
           Respuesta 2
