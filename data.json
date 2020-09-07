@@ -1,0 +1,100 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "question": "¿Cómo obtengo la altura ortometrica o altitud? ",
+      "correct_answer": "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 160,3 metros.",
+      "incorrect_answers": [
+        "Para conocer la latitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la distancia a la altura elipsoidal obteniendo en este caso una altitud de 149,4 metros.",
+        "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 260,3 metros.",
+        "Para conocer la altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 100,3 metros."
+      ]
+    },
+    {
+      "question": "¿A qué paralelo corresponde una latitud de cero grados?",
+      "correct_answer": "Corresponde a la linea del Ecuador",
+      "incorrect_answers": [
+        "Corresponde al Tropico de Cancer",
+        "Corresponde al Tropico de Capricornio",
+        "Corresponde al circulo polar Antartico"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the name of Captain Nemo&#039;s submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+      "correct_answer": "The Nautilus",
+      "incorrect_answers": ["The Neptune", "The Poseidon  ", "The Atlantis"]
+    },
+    {
+      "question": "Which of the following is the world&#039;s best-selling book?",
+      "correct_answer": "The Lord of the Rings",
+      "incorrect_answers": [
+        "The Little Prince",
+        "Harry Potter and the Philosopher&#039;s Stone",
+        "The Da Vinci Code"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+      "correct_answer": "Richard Bachman",
+      "incorrect_answers": ["J. D. Robb", "Mark Twain", "Lewis Carroll"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
+      "correct_answer": "James Potter",
+      "incorrect_answers": ["Joey Potter", "Frank Potter", "Hairy Potter Sr."]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who wrote the young adult novel &quot;The Fault in Our Stars&quot;?",
+      "correct_answer": "John Green",
+      "incorrect_answers": [
+        "Stephenie Meyer",
+        "Suzanne Collins",
+        "Stephen Chbosky"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the protagonist of J.D. Salinger&#039;s novel Catcher in the Rye?",
+      "correct_answer": "Holden Caulfield",
+      "incorrect_answers": ["Fletcher Christian", "Jay Gatsby", "Randall Flagg"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+      "correct_answer": "A Study in Scarlet",
+      "incorrect_answers": [
+        "The Sign of the Four",
+        "A Case of Identity",
+        "The Doings of Raffles Haw"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which is NOT a book in the Harry Potter Series?",
+      "correct_answer": "The House Elf",
+      "incorrect_answers": [
+        "The Chamber of Secrets",
+        "The Prisoner of Azkaban",
+        "The Deathly Hallows"
+      ]
+    }
+  ]
+}
