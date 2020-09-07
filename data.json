@@ -176,13 +176,17 @@
       "category": "Geodesia",
       "question": "¿Qué es la Latitud Geográfica (φ)?",
       "correct_answer": "Ángulo medido sobre el plano meridiano que contiene al punto entre el plano ecuatorial y la normal al elipsoide en P.",
-      "incorrect_answers": ["Ángulo medido sobre el plano ecuatorial entre el meridiano origen y el plano meridiano que pasa por P."]
+      "incorrect_answers": [
+        "Ángulo medido sobre el plano ecuatorial entre el meridiano origen y el plano meridiano que pasa por P."
+      ]
     },
     {
       "category": "Geodesia",
       "question": "¿Qué es longitud Geográfica (λ)?",
       "correct_answer": "Ángulo medido sobre el plano ecuatorial entre el meridiano origen y el plano meridiano que pasa por P.",
-      "incorrect_answers": ["Ángulo medido sobre el plano meridiano que contiene al punto entre el plano ecuatorial y la normal al elipsoide en P."]
+      "incorrect_answers": [
+        "Ángulo medido sobre el plano meridiano que contiene al punto entre el plano ecuatorial y la normal al elipsoide en P."
+      ]
     },
     {
       "category": "Geodesia",
@@ -201,6 +205,272 @@
       "question": "La longitud mide el ángulo a lo largo del ecuador desde cualquier punto de la Tierra. Se acepta que Greenwich en Londres es la longitud 0 en la mayoría de las sociedades modernas. Las líneas de longitud son círculos máximos que pasan por los polos y se llaman meridianos.",
       "correct_answer": "Verdadero",
       "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "... mide el ángulo a lo largo del ecuador desde cualquier punto de la Tierra. Se acepta que Greenwich en Londres es la longitud 0 en la mayoría de las sociedades modernas. Las líneas de longitud son círculos máximos que pasan por los polos y se llaman meridianos.",
+      "correct_answer": "Longitud",
+      "incorrect_answers": ["Latitud", "Elipsoide", "Geoide"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La longitud mide el meridiano a lo largo del Atlantico desde cualquier punto de la Tierra. Se acepta que Greenwich en Londres es la longitud 0 en la mayoría de las sociedades modernas. Las líneas de longitud son círculos máximos que pasan por los polos y se llaman meridianos.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuáles son los tres parámetros más importantes de un elipsoide? ",
+      "correct_answer": "El semieje mayor, el semieje menor y el aplanamiento",
+      "incorrect_answers": [
+        "El semieje menor, el semieje mayor y el elipsoide",
+        "El semieje perpendicular, el semieje menor y el aplanamiento",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué tipos de elipsoides se conoce?",
+      "correct_answer": "Wgs84, International 1924 (Hayford), South American 1969",
+      "incorrect_answers": [
+        "Wgs44, International 1824 (Hayford), South American 1969",
+        "Wgs94, International 1924 (Hayford), South American 1959",
+        "Wgs84, International 1824 (Hayford), South American 1959"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La ... es la altura medida desde una superficie elipsoidal hasta un punto en la superficie de la Tierra. Los elipsoides de referencia son modelos matemáticos de la forma de la Tierra con forma de esfera aplanada.",
+      "correct_answer": "Altura del elipsoide",
+      "incorrect_answers": [
+        "Altura del elipsoide de Revolución",
+        "Altura del Geoide",
+        "Altura del meridiano"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El elipsoide representa la forma de la tierra de manera matemática",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El elipsoide representa la forma de la tierra de manera física",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La latitud ... es el ángulo que forma el lugar sobre la Tierra con el ecuador terrestre visto desde el centro de la Tierra. No coincide con la latitud o ángulo que forma un lugar con el ecuador terrestre por ser la Tierra aproximadamente un elipsoide de revolución",
+      "correct_answer": "Geocéntrica",
+      "incorrect_answers": ["Geográfica"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuántos paralelos tiene la tierra? ",
+      "correct_answer": "Cinco Paralelos: El círculo polar Ártico, el trópico de Cáncer, el ecuador, el trópico de Capricornio y el círculo polar Antártico.",
+      "incorrect_answers": [
+        "Cuatro Paralelos: El círculo polar Ártico, el trópico de Cáncer, el ecuador, el trópico de Aries y el círculo polar Alemán.",
+        "Cinco Paralelos: El círculo polar Ártico, el trópico de Cáncer, el ecuador y el trópico de Capricornio",
+        "Seis Paralelos: El círculo polar Ártico, el trópico de Cáncer, el ecuador, el trópico de Capricornio, el círculo polar Antártico y el círculo polar Alemán."
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La línea del ecuador se conoce como paralelo 0°, que divide a nuestro planeta en dos mitades iguales: El hemisferio Norte y el hemisferio Sur.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La línea del ecuador se conoce como paralelo 0°, que divide a nuestro planeta en dos mitades iguales: El hemisferio Oeste y el hemisferio Norte.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿A qué paralelo corresponde una latitud de cero grados? ",
+      "correct_answer": "Línea de ecuador",
+      "incorrect_answers": [
+        "Círculo polar Ártico",
+        "Trópico de Cancer",
+        "Trópico de Capricornio"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Los ... son unas líneas imaginarias circulares que se utilizan en las coordenadas geográficas para determinar la latitud de un lugar, es decir, qué tan lejos se encuentra ese punto del ecuador.",
+      "correct_answer": "Paralelos",
+      "incorrect_answers": ["Meridianos", "Elipsoides", "UTM"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cómo obtengo la altura ortometrica o altitud? ",
+      "correct_answer": "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 160,3 metros.",
+      "incorrect_answers": [
+        "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 140,3 metros.",
+        "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 144,3 metros.",
+        "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 150,3 metros."
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Se emplea para determinar los puntos singulares de un territorio mediante el cálculo exacto de los vértices geodésicos, con sistemas de triángulos muy grandes, llamados redes de triangulación. Podemos encontrar los ángulos de los vértices, sus distancias y azimuts.",
+      "correct_answer": "Triangulación geodésica",
+      "incorrect_answers": [
+        "Ecuaciones de Vincenty",
+        "Planillas de Vincenty",
+        "Teorema de Legendre"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La cantidad por la cual la suma de los ángulos de un triángulo sobre la superficie de una esfera excede 180 grados. El valor en que la suma de sus tres ángulos excede de dos rectos, ε = A + B + C −180º",
+      "correct_answer": "Exceso esférico",
+      "incorrect_answers": [
+        "Triangulación geodésica",
+        "Ondulación geoidal",
+        "Paralaje Estereoscópico"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué se entiende por ondulación geoidal? ",
+      "correct_answer": "La diferencia de altura entre elipsoide y geoide siguiendo la línea de la plomada. El GPS mide altitudes el elipsoide WGS84 y no sobre el geoide.",
+      "incorrect_answers": [
+        "La cantidad por la cual la suma de los ángulos de un triángulo sobre la superficie de una esfera excede 180 grados. El valor en que la suma de sus tres ángulos excede de dos rectos, ε = A + B + C −180º",
+        "La diferencia de altura entre elipsoide y geoide siguiendo la línea de la plomada. El UTM mide altitudes el elipsoide WGS94 y no sobre el geoide.",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Este teorema de Legendre, que se enuncia como sigue: puede reemplazarse el calculo de un triangulo geodésico situado sobre la esfera de curvatura media de radio por el calculo de un triangulo plano cuyos lados sean los del esférico, y cuyos ángulos sean los de aquel disminuidos en la tercera parte del exceso esférico. Como se llega en los desarrollos hasta el cuarto orden, significa esto, que el error absoluto cometido en cada uno de los lados es cantidad de quinto orden.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Este teorema de Legendre, que se enuncia como sigue: puede reemplazarse el calculo de un triangulo geodésico situado sobre la esfera de curvatura media de radio por el calculo de un triangulo plano cuyos lados sean los del esférico, y cuyos ángulos sean los de aquel disminuidos en la tercera parte de la Triangulación Geodésica. Como se llega en los desarrollos hasta el cuarto orden, significa esto, que el error absoluto cometido en cada uno de los lados es cantidad de sexto orden.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿De qué programa obtengo la ondulación geoidal?",
+      "correct_answer": "GPS",
+      "incorrect_answers": ["UTM", "Vincent", "Google Maps"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuándo un ángulo esférico puede ser negativo?",
+      "correct_answer": "Cuando el Angulo que tomamos esta esta en sentido antihorario o se encuentra en el cuadrante 2 y 4",
+      "incorrect_answers": [
+        "Cuando el Angulo que tomamos esta esta en sentido antihorario o se encuentra en el cuadrante 3 y 4",
+        "Cuando el Angulo que tomamos esta esta en sentido antihorario o se encuentra en el cuadrante 4 y 5",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuáles son las coordenadas mínima y máxima de la latitud?",
+      "correct_answer": "La latitud presenta un mínimo posible de 0º hasta un máximo de 90º",
+      "incorrect_answers": [
+        "La latitud presenta un mínimo posible de 0º hasta un máximo de 70º",
+        "La latitud presenta un mínimo posible de 0º hasta un máximo de 80º",
+        "La latitud presenta un mínimo posible de 0º hasta un máximo de 60º"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuáles son las coordenadas mínima y máxima de la longitud?",
+      "correct_answer": "La longitud presenta un mínimo posible de 0º hasta un máximo de 180º, 0º-180ºE, 0º-180º W.",
+      "incorrect_answers": [
+        "La longitud presenta un mínimo posible de 0º hasta un máximo de 190º, 0º-170ºE, 0º-180º W.",
+        "La longitud presenta un mínimo posible de 0º hasta un máximo de 170º, 0º-180ºE, 0º-160º W.",
+        "La longitud presenta un mínimo posible de 0º hasta un máximo de 190º, 0º-180ºE, 0º-180º W."
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué se obtiene con el teorema de Legendre? ",
+      "correct_answer": "El área del triangulo plano",
+      "incorrect_answers": [
+        "El área del Elipsoide",
+        "El área del Meridiano",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Es la distancia vertical entre un punto situado sobre la superficie terrestre o la atmósfera y el nivel del mar. Para calcular la altitud, se toma como referencia el nivel del mar, y por eso la altitud se expresa con una cifra en metros seguida de la abreviatura s. n. m., es decir, m s. n. m.",
+      "correct_answer": "Factor de altitud",
+      "incorrect_answers": [
+        "Factor de línea perpendicular",
+        "Paralaje",
+        "Altura de vuelo"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuándo un ángulo interno de un triángulo puede ser mayor a 180?",
+      "correct_answer": "Cuando no sea un triangulo",
+      "incorrect_answers": [
+        "Cuando sea un triangulo",
+        "Cuando su ángulo sea perpendicular",
+        "Cuando no tenga ángulos"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿De dónde a donde se mide la altura de vuelo?",
+      "correct_answer": "La distancia que existe entre el terreno fotografiado y el centro de la lente",
+      "incorrect_answers": [
+        "la distancia que existe entre el terreno fotografiado y en el GPS",
+        "la distancia que existe entre el terreno analizado y el centro del UTM",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Por qué la escala es variable en una fotografía aérea?",
+      "correct_answer": "El terreno rara vez es plano y la escala varia a lo largo del formato de la fotografía al variar continuamente la altura de vuelo sobre el terreno",
+      "incorrect_answers": [
+        "Debido al clima",
+        "El terreno siempre es plano y la escala no varia a lo largo del formato de la fotografía al variar continuamente la altura de vuelo sobre el terreno",
+        "Debido a la línea del ecuador"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "LEER: En la esquina inferior izquierda de la imagen guardada se encuentra la medida de la escala. Con la herramienta 'REGLA'  en Photoshop, y teniendo apretada la tecla Shift para que el trazado sea horizontal, se marca el ancho total de la escala. En la barra superior, el valor 'L:1' nos indica la distancia medida en pixels. Debemos entonces dividir el valor que nos indica la escala de Google Earth (en nuestra imagen 378m) por la distancia correspondiente en pixels (L1: 260 px) obteniendo así la medida del lado del píxel (en nuestro caso 1.4538 m de lado y 2.1137 m2 de superficie).",
+      "correct_answer": "Ya me lo aprendí",
+      "incorrect_answers": ["Ya me lo aprendí"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Es la ciencia que permite obtener y/o realizar medidas correctas basándose en fotografías aéreas, a fin de determinar las características métricas y geométricas de los objetos fotografiados desde un objeto volador , como por ejemplo, tamaño, forma y posición.",
+      "correct_answer": "Aerofotogrametrica",
+      "incorrect_answers": ["Aerodinamica", "Aeroespacial", "Ninguna de las anteriores"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Es una técnica empleada para determinar las propiedades geométricas, dimensiones y forma, de los objetos y espacios. Esto se consigue, como se puede deducir de su denominación, mediante la realización de fotografías.",
+      "correct_answer": "Fotogrametría",
+      "incorrect_answers": ["Ecuaciones de Vincenty", "Teorema de Legendre", "Planilla de Vincenty"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El cambio en la posición de una imagen desde una fotografía a la siguiente producido por el desplazamiento del avión se denomina paralaje estereoscópico.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El cambio en la posición de un terreno desde una fotografía a la siguiente producido por el desplazamiento de un tren se denomina paralaje estereoscópico.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
     }
   ]
 }
