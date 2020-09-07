@@ -6,6 +6,7 @@ const Cuestionario = ({
   handleAnswer,
   data: { question, correct_answer, answers },
 }) => {
+  
   return (
     <div className="flex flex-col">
       <div className="bg-white text-purple-800 p-10 rounded-lg shadow-md">

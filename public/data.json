@@ -22,84 +22,185 @@
     {
       "question": "¿Cuáles son las coordenadas UTM para el hemisferio sur?",
       "correct_answer": "Perú: 17,18,19; Bolivia: 19,20,21; Argentina: 18,19.20,21,22; Chile: 18,19; Paraguay: 20,21; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 17, 18 y 19 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 21 Guayanas y Surinam están entre las zonas 20, 21 y 22",
-      "incorrect_answers": ["The Neptune", "The Poseidon  ", "The Atlantis"]
-    },
-    {
-      "question": "Which of the following is the world&#039;s best-selling book?",
-      "correct_answer": "The Lord of the Rings",
       "incorrect_answers": [
-        "The Little Prince",
-        "Harry Potter and the Philosopher&#039;s Stone",
-        "The Da Vinci Code"
+        "Perú: 20,13,19; Bolivia: 15,30,21; Argentina: 17,15.20,25,22; Chile: 19,18; Paraguay: 21,28; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 17, 18 y 19 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 21 Guayanas y Surinam están entre las zonas 20, 21 y 22",
+        "Perú: 10,13,19; Bolivia: 14,30,22; Argentina: 18,14.20,24,22; Chile: 19,18; Paraguay: 21,28; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 17, 18 y 19 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 22 Guayanas y Surinam están entre las zonas 14, 20 y 22",
+        "Perú: 17,15,18; Bolivia: 14,20,21; Argentina: 17,14.20,25,22; Chile: 19,18; Paraguay: 21,28; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 14, 15 y 17 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 21 Guayanas y Surinam están entre las zonas 20, 21 y 22"
       ]
     },
     {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "A group of islands is called an &#039;archipelago&#039;.",
-      "correct_answer": "True",
-      "incorrect_answers": ["False"]
+      "question": "¿A que palabra se le atribuye el significado de: se utiliza para referenciar cualquier punto de la superficie terrestre, utilizando para ello un tipo particular de proyección cilíndrica para representar la Tierra sobre el plano.",
+      "correct_answer": "UTM",
+      "incorrect_answers": ["GPS", "Elipsoide", "Coordenadas"]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
+      "question": "El factor de escala UTM Es una proyección cilíndrica conforme. El factor de escala en la dirección del paralelo y en la dirección del meridiano son iguales (h = k). ",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
       "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
       "correct_answer": "Richard Bachman",
       "incorrect_answers": ["J. D. Robb", "Mark Twain", "Lewis Carroll"]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
-      "correct_answer": "James Potter",
-      "incorrect_answers": ["Joey Potter", "Frank Potter", "Hairy Potter Sr."]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Who wrote the young adult novel &quot;The Fault in Our Stars&quot;?",
-      "correct_answer": "John Green",
+      "category": "Geodesia",
+      "question": "¿Cuál es el valor del factor de escala en el meridiano central UTM?",
+      "correct_answer": "La proyección UTM es Conforme, teniendo el meridiano central de cada huso un factor de escala de 0,9996 y se representa este meridiano como una línea recta.",
       "incorrect_answers": [
-        "Stephenie Meyer",
-        "Suzanne Collins",
-        "Stephen Chbosky"
+        "La proyección UTM es Conforme, teniendo el meridiano central de cada huso un factor de escala de 0,9956 y se representa este meridiano como una línea perpendicular.",
+        "La proyección UTM es Inconforme, teniendo el meridiano central de cada huso un factor de escala de 0,88996 y se representa este meridiano como una línea recta.",
+        "La proyección UTM es Recta, teniendo el meridiano central de cada huso un factor de escala de 0,9985 y se representa este meridiano como una línea recta."
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What is the name of the protagonist of J.D. Salinger&#039;s novel Catcher in the Rye?",
-      "correct_answer": "Holden Caulfield",
-      "incorrect_answers": ["Fletcher Christian", "Jay Gatsby", "Randall Flagg"]
+      "category": "Geodesia",
+      "question": "Son utilizadas ampliamente en geodesia para calcular distancias sobre la superficie de la Tierra debido a que requiere un número de operaciones bajo a pesar de dar una precisión de 0.5mm (0.000015″), mucho mejor que el método tradicional de la fórmula del semiverseno usada en trigonometría esférica.",
+      "correct_answer": "Vincenty",
+      "incorrect_answers": ["UTM", "GPS", "Meridianos"]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
-      "correct_answer": "A Study in Scarlet",
+      "category": "Geodesia",
+      "question": "¿Qué datos debo introducir en el GPS para poder comenzar?",
+      "correct_answer": "El sistema de coordenada (UTM geográficas) y del Datum (WGS 84 o PSAD56) según la cartografía base.",
       "incorrect_answers": [
-        "The Sign of the Four",
-        "A Case of Identity",
-        "The Doings of Raffles Haw"
+        "El sistema de coordenada (UTM geográficas) y del Datum (WGS 84) según la cartografía base.",
+        "El sistema de cartografia (UTM geográficas) y del Datum (PSAD56) según la cartografía base.",
+        "Ninguna de las anteriores",
+        "El sistema de coordenada (UTM geográficas) y del Datum (WGS 44 o PSAD56) según la cartografía base.",
+        "El sistema de coordenada (UTM geográficas) y del Datum (WGS 54 o PSAD46) según la cartografía base."
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which is NOT a book in the Harry Potter Series?",
-      "correct_answer": "The House Elf",
+      "category": "Geodesia",
+      "question": "Los datos que obtengo de un GPS son: La latitud y longitud WGS84, número de satélites, precisiones horizontal y vertical. Rango de error, altitud, nombre de los satélites.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuál es el primer dato que ajusto en un GPS? ",
+      "correct_answer": "El sistema de coordenadas",
       "incorrect_answers": [
-        "The Chamber of Secrets",
-        "The Prisoner of Azkaban",
-        "The Deathly Hallows"
+        "La latitud",
+        "La longitud",
+        "El Elipsoide",
+        "Calibro el GPS",
+        "Ninguna de las anteriores",
+        "Los meridianos",
+        "La distancia del punto"
       ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Son los círculos máximos de la esfera terrestre que pasan por los polos. Puede decirse que los meridianos son líneas imaginarias, que se utilizan para fijar el horario. El meridiano base a partir del cual se miden las longitudes es el meridiano de Greenwich.",
+      "correct_answer": "Meridianos",
+      "incorrect_answers": ["Geodesia", "Elipsoides", "Latitud geocentrica"]
+    },
+    {
+      "category": "",
+      "question": "La ... de los meridianos en un punto es el valor angular de la imagen (en la proyección) del meridiano que pasa por ese punto. Ángulo formado entre el ... y el ...",
+      "correct_answer": "Convergencia, norte geografico, norte de cuadricula.",
+      "incorrect_answers": [
+        "Distancia, sur geografico, este de cuadricula",
+        "Latitud, 90 grados del meridiano, 44 grados del elipsoide",
+        "Convergencia, sur geografico, oeste de cuadricula"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El meridiano de cero grados base a partir del cual se miden las longitudes es el meridiano de Greenwich.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "El meridiano de cero grados base a partir del cual se miden las longitudes es el meridiano de Tropico de Cancer.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuántos meridianos tiene la tierra?",
+      "correct_answer": "Existen 180 meridianos en el hemisferio oriental y 180 en el hemisferio occidental. Total 360 meridianos.",
+      "incorrect_answers": [
+        "Existen 190 meridianos en el hemisferio oriental y 180 en el hemisferio occidental. Total 370 meridianos.",
+        "Existen 180 meridianos en el hemisferio oriental y 280 en el hemisferio occidental. Total 460 meridianos.",
+        "Existen 170 meridianos en el hemisferio oriental y 170 en el hemisferio occidental. Total 360 meridianos."
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuantas superficies maneja la Geodesia?",
+      "correct_answer": "Tres superficies: Topografica, Geoide, Elipsoide de Revolucion",
+      "incorrect_answers": [
+        "Dos superficies: Topografica y Geoide",
+        "Tres superficies: Topografica, Geoide, Elipsoide de Evolución",
+        "Tres superficies: Topografica, Elipsoide, Elipsoide de Revolucion"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La ... es la superficie tangible de la Tierra donde se realizan las mediciones físicas y topográficas.",
+      "correct_answer": "Topografica",
+      "incorrect_answers": ["Geoide", "Elipsoide", "Elipsoide de Revolución"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Corresponde a la superficie equipotencial del campo de gravedad terrestre que se toma como cota cero para el cálculo de altitudes ortométricas.",
+      "correct_answer": "Geoide",
+      "incorrect_answers": [
+        "Elipsoide",
+        "Elipsoide de Revolución",
+        "Topografica"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Es la figura matemática que imita la forma real de la tierra. Es un sólido geométrico definido por la rotación de una semielipse en torno de su eje menor.",
+      "correct_answer": "Elipsoide de Revolución",
+      "incorrect_answers": ["Geoide", "Topografica", "Elipsoide"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cuáles son las coordenadas geodésicas?",
+      "correct_answer": "Latitud geográfica y Longitud Geográfica",
+      "incorrect_answers": [
+        "Longitud Meridiana y Latitud geográfica",
+        "Latitud del hemisferio y Longitud Geográfica",
+        "Longitud y Latitud"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué es la Latitud Geográfica (φ)?",
+      "correct_answer": "Ángulo medido sobre el plano meridiano que contiene al punto entre el plano ecuatorial y la normal al elipsoide en P.",
+      "incorrect_answers": ["Ángulo medido sobre el plano ecuatorial entre el meridiano origen y el plano meridiano que pasa por P."]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué es longitud Geográfica (λ)?",
+      "correct_answer": "Ángulo medido sobre el plano ecuatorial entre el meridiano origen y el plano meridiano que pasa por P.",
+      "incorrect_answers": ["Ángulo medido sobre el plano meridiano que contiene al punto entre el plano ecuatorial y la normal al elipsoide en P."]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La latitud mide el ángulo entre cualquier punto y el ecuador. Las líneas de latitud se llaman paralelos y son círculos paralelos al ecuador en la superficie de la Tierra. La latitud es la distancia que existe entre un punto cualquiera y el Ecuador, medida sobre el meridiano que pasa por dicho punto.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La latitud mide el meridiano de Greenwich entre cualquier punto y el ecuador. Las líneas de latitud se llaman paralelos y son círculos paralelos al ecuador en la superficie de la Tierra. La latitud es la distancia que existe entre un punto cualquiera y el Ecuador, medida sobre el elipsoide que pasa por dicho punto.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La longitud mide el ángulo a lo largo del ecuador desde cualquier punto de la Tierra. Se acepta que Greenwich en Londres es la longitud 0 en la mayoría de las sociedades modernas. Las líneas de longitud son círculos máximos que pasan por los polos y se llaman meridianos.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
     }
   ]
 }
