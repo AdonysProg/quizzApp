@@ -35,7 +35,7 @@ const Cuestionario = ({
         <button 
         onClick={handleNextPage}
         className="ml-auto p-4 font-bold rounded shadow mb-4 bg-purple-700 text-white">
-          Siguiente pregunta
+          Siguiente
         </button>
       )}
     </div>
