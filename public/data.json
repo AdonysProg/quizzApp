@@ -2,27 +2,21 @@
   "response_code": 0,
   "results": [
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Who wrote &quot;Harry Potter&quot;?",
-      "correct_answer": "J.K. Rowling",
+      "question": "¿Cómo obtengo la altura ortometrica o altitud? ",
+      "correct_answer": "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 160,3 metros.",
       "incorrect_answers": [
-        "J.R.R. Tolkien",
-        "Terry Pratchett",
-        "Daniel Radcliffe"
+        "Para conocer la latitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la distancia a la altura elipsoidal obteniendo en este caso una altitud de 149,4 metros.",
+        "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 260,3 metros.",
+        "Para conocer la altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 100,3 metros."
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "George Orwell wrote this book, which is often considered a statement on government oversight.",
-      "correct_answer": "1984",
+      "question": "¿A qué paralelo corresponde una latitud de cero grados?",
+      "correct_answer": "Corresponde a la linea del Ecuador",
       "incorrect_answers": [
-        "The Old Man and the Sea",
-        "Catcher and the Rye",
-        "To Kill a Mockingbird"
+        "Corresponde al Tropico de Cancer",
+        "Corresponde al Tropico de Capricornio",
+        "Corresponde al circulo polar Antartico"
       ]
     },
     {
@@ -34,9 +28,6 @@
       "incorrect_answers": ["The Neptune", "The Poseidon  ", "The Atlantis"]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
       "question": "Which of the following is the world&#039;s best-selling book?",
       "correct_answer": "The Lord of the Rings",
       "incorrect_answers": [

@@ -9,12 +9,7 @@ function App() {
   const [score, setScore] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   useEffect(() => {
-    fetch(API_URL, {
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-      }
-    })
+    fetch(`./data.json`)
       .then((res) => res.json())
       .then((data) => {
         const preguntas = data.results.map((preguntas) => ({
