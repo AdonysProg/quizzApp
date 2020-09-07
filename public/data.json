@@ -20,11 +20,8 @@
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What was the name of Captain Nemo&#039;s submarine in &quot;20,000 Leagues Under the Sea&quot;?",
-      "correct_answer": "The Nautilus",
+      "question": "¿Cuáles son las coordenadas UTM para el hemisferio sur?",
+      "correct_answer": "Perú: 17,18,19; Bolivia: 19,20,21; Argentina: 18,19.20,21,22; Chile: 18,19; Paraguay: 20,21; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 17, 18 y 19 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 21 Guayanas y Surinam están entre las zonas 20, 21 y 22",
       "incorrect_answers": ["The Neptune", "The Poseidon  ", "The Atlantis"]
     },
     {
@@ -35,6 +32,14 @@
         "Harry Potter and the Philosopher&#039;s Stone",
         "The Da Vinci Code"
       ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "A group of islands is called an &#039;archipelago&#039;.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
     },
     {
       "category": "Entertainment: Books",

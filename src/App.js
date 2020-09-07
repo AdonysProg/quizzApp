@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Cuestionario } from "./components";
 
-const API_URL = "https://quizzgeoapi.herokuapp.com/preguntas";
+//const API_URL = "https://quizzgeoapi.herokuapp.com/preguntas";
 
 function App() {
   const [preguntas, setPreguntas] = useState([]);
@@ -12,7 +12,7 @@ function App() {
     fetch(`./data.json`)
       .then((res) => res.json())
       .then((data) => {
-        const preguntas = data.results.map((preguntas) => ({
+        const preguntas = data.results.sort(() => Math.random() -0.5).map((preguntas) => ({
           ...preguntas,
           answers: [
             preguntas.correct_answer,
