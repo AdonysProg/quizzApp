@@ -1,15 +1,13 @@
 import React from "react";
 
 const Cuestionario = ({
+  showAnswer,
+  handleNextPage,
   handleAnswer,
-  data: { question, correct_answer, incorrect_answers },
+  data: { question, correct_answer, answers },
 }) => {
-  const shuffledAnswers = [correct_answer, ...incorrect_answers].sort(
-    () => Math.random() - 0.5
-  );
-
   return (
-    <div>
+    <div className="flex flex-col">
       <div className="bg-white text-purple-800 p-10 rounded-lg shadow-md">
         <h2
           className="text-2xl text-center"
@@ -17,15 +15,29 @@ const Cuestionario = ({
         />
       </div>
       <div className="grid grid-cols-2 gap-6 mt-6">
-        {shuffledAnswers.map((answer) => (
-          <button
-            className='p-4 text-purple-800 font-bold rounded shadow mb-4 bg-white'
-            onClick={() => handleAnswer(answer)}
-          >
-            {answer}
-          </button>
-        ))}
+        {answers.map((answer) => {
+          const bgColor = showAnswer
+            ? answer === correct_answer
+              ? "bg-green-500"
+              : ""
+            : "bg-white";
+          return (
+            <button
+              className={`${bgColor} p-4 text-purple-800 font-bold rounded shadow mb-4 bg-white`}
+              onClick={() => handleAnswer(answer)}
+            >
+              {answer}
+            </button>
+          );
+        })}
       </div>
+      {showAnswer && (
+        <button 
+        onClick={handleNextPage}
+        className="ml-auto p-4 font-bold rounded shadow mb-4 bg-purple-700 text-white">
+          Siguiente pregunta
+        </button>
+      )}
     </div>
   );
 };

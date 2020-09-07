@@ -8,19 +8,32 @@ function App() {
   const [preguntas, setPreguntas] = useState([]);
   const [currentIndex, setcurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [showAnswer, setShowAnswer] = useState(false);
   useEffect(() => {
     fetch(API_URL)
       .then((res) => res.json())
       .then((data) => {
-        setPreguntas(data.results);
+        const preguntas = data.results.map((preguntas) => ({
+          ...preguntas, 
+          answers:[
+            preguntas.correct_answer, ...preguntas.incorrect_answers
+          ].sort(() => Math.random() - 0.5),
+        }))
+        setPreguntas(preguntas);
       });
   }, []);
   const handleAnswer = (answer) => {
-    const newIndex = currentIndex + 1;
-    setcurrentIndex(newIndex);
-    if (answer === preguntas[currentIndex].correct_answer) {
-      setScore(score + 1);
+    if (!showAnswer) {
+      if (answer === preguntas[currentIndex].correct_answer) {
+        setScore(score + 1);
+      }
     }
+    setShowAnswer(true);
+  };
+
+  const handleNextPage = () => {
+    setShowAnswer(false);
+    setcurrentIndex(currentIndex + 1);
   };
   return preguntas.length > 0 ? (
     <div className="container my-4">
@@ -34,6 +47,8 @@ function App() {
         <Cuestionario
           data={preguntas[currentIndex]}
           handleAnswer={handleAnswer}
+          handleNextPage={handleNextPage}
+          showAnswer={showAnswer}
         />
       )}
     </div>
