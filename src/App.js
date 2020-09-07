@@ -9,15 +9,21 @@ function App() {
   const [score, setScore] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   useEffect(() => {
-    fetch(API_URL)
+    fetch(API_URL, {
+      mode: "cors",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      }
+    })
       .then((res) => res.json())
       .then((data) => {
         const preguntas = data.results.map((preguntas) => ({
-          ...preguntas, 
-          answers:[
-            preguntas.correct_answer, ...preguntas.incorrect_answers
+          ...preguntas,
+          answers: [
+            preguntas.correct_answer,
+            ...preguntas.incorrect_answers,
           ].sort(() => Math.random() - 0.5),
-        }))
+        }));
         setPreguntas(preguntas);
       });
   }, []);
