@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Cuestionario } from "./components";
 
-const API_URL = "/preguntas";
+const API_URL = "https://quizzgeoapi.herokuapp.com/preguntas";
 
 function App() {
   const [preguntas, setPreguntas] = useState([]);
