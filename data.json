@@ -40,12 +40,6 @@
     },
     {
       "category": "Geodesia",
-      "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
-      "correct_answer": "Richard Bachman",
-      "incorrect_answers": ["J. D. Robb", "Mark Twain", "Lewis Carroll"]
-    },
-    {
-      "category": "Geodesia",
       "question": "¿Cuál es el valor del factor de escala en el meridiano central UTM?",
       "correct_answer": "La proyección UTM es Conforme, teniendo el meridiano central de cada huso un factor de escala de 0,9996 y se representa este meridiano como una línea recta.",
       "incorrect_answers": [
