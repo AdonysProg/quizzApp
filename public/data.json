@@ -558,7 +558,7 @@
     },
     {
       "category": "Geodesia",
-      "question": "",
+      "question": "¿Qué datos obtengo de las planillas de vincenty?",
       "correct_answer": "Distancia elipsoidal, azimuts directos azimut inverso, convergencia de meridianos, exceso esferico y grafica",
       "incorrect_answers": [
         "Distancia elipsoidal, azimuts directos azimut inverso, convergencia de latitudes, exceso esferico y grafica",
