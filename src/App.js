@@ -43,8 +43,8 @@ function App() {
   };
   return preguntas.length > 0 ? (
     <div className="container my-4">
-      {currentIndex >= preguntas.length ? (
-        <div className="h-screen m-20">
+      {currentIndex <= preguntas.length ? (
+        <div className="h-screen m-20 resultados">
           <h1 className="text-3xl text-white font-bold bg-green-500 p-10 rounded shadow-lg m-5 text-center">
             Has respondido {score} preguntas correctamente.
           </h1>
