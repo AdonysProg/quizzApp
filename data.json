@@ -575,8 +575,8 @@
     {
       "category":"Geodesia",
       "question":"Con la formula Vincenty no se puede obtener las distancias de los puntos implementados sobre la superficie de la tierra",
-      "correct_answer":"Verdadero",
-      "incorrect_answers":["Falso"]
+      "correct_answer":"Falso",
+      "incorrect_answers":["Verdadero"]
     }
   ]
 }
