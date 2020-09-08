@@ -444,7 +444,7 @@
     },
     {
       "category": "Geodesia",
-      "question": "LEER: En la esquina inferior izquierda de la imagen guardada se encuentra la medida de la escala. Con la herramienta 'REGLA'  en Photoshop, y teniendo apretada la tecla Shift para que el trazado sea horizontal, se marca el ancho total de la escala. En la barra superior, el valor 'L:1' nos indica la distancia medida en pixels. Debemos entonces dividir el valor que nos indica la escala de Google Earth (en nuestra imagen 378m) por la distancia correspondiente en pixels (L1: 260 px) obteniendo así la medida del lado del píxel (en nuestro caso 1.4538 m de lado y 2.1137 m2 de superficie).",
+      "question": "¿Cómo se obtiene la escala en una foto de satélite del programa Google Earth? LEER: En la esquina inferior izquierda de la imagen guardada se encuentra la medida de la escala. Con la herramienta 'REGLA'  en Photoshop, y teniendo apretada la tecla Shift para que el trazado sea horizontal, se marca el ancho total de la escala. En la barra superior, el valor 'L:1' nos indica la distancia medida en pixels. Debemos entonces dividir el valor que nos indica la escala de Google Earth (en nuestra imagen 378m) por la distancia correspondiente en pixels (L1: 260 px) obteniendo así la medida del lado del píxel (en nuestro caso 1.4538 m de lado y 2.1137 m2 de superficie).",
       "correct_answer": "Ya me lo aprendí",
       "incorrect_answers": ["Ya me lo aprendí"]
     },
@@ -452,13 +452,21 @@
       "category": "Geodesia",
       "question": "Es la ciencia que permite obtener y/o realizar medidas correctas basándose en fotografías aéreas, a fin de determinar las características métricas y geométricas de los objetos fotografiados desde un objeto volador , como por ejemplo, tamaño, forma y posición.",
       "correct_answer": "Aerofotogrametrica",
-      "incorrect_answers": ["Aerodinamica", "Aeroespacial", "Ninguna de las anteriores"]
+      "incorrect_answers": [
+        "Aerodinamica",
+        "Aeroespacial",
+        "Ninguna de las anteriores"
+      ]
     },
     {
       "category": "Geodesia",
       "question": "Es una técnica empleada para determinar las propiedades geométricas, dimensiones y forma, de los objetos y espacios. Esto se consigue, como se puede deducir de su denominación, mediante la realización de fotografías.",
       "correct_answer": "Fotogrametría",
-      "incorrect_answers": ["Ecuaciones de Vincenty", "Teorema de Legendre", "Planilla de Vincenty"]
+      "incorrect_answers": [
+        "Ecuaciones de Vincenty",
+        "Teorema de Legendre",
+        "Planilla de Vincenty"
+      ]
     },
     {
       "category": "Geodesia",
@@ -471,6 +479,110 @@
       "question": "El cambio en la posición de un terreno desde una fotografía a la siguiente producido por el desplazamiento de un tren se denomina paralaje estereoscópico.",
       "correct_answer": "Falso",
       "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Qué datos debo introducir en la planilla de vincenty?",
+      "correct_answer": "Se debe introducir puntos de latitud y longitud correspondientes en el sistema sexagesimal Y el datum WGS84",
+      "incorrect_answers": [
+        "Se debe introducir puntos de latitud y longitud correspondientes en el sistema sexagesimal Y el datum WGS94",
+        "Se debe introducir puntos de latitud y longitud correspondientes en el sistema octagonal Y el datum WGS84",
+        "Se debe introducir puntos de latitud y longitud correspondientes en el sistema septimal Y el datum WGS184"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Por que la línea del ecuador es perpendicular al circulo polar?",
+      "correct_answer": "No serian perpendicular por que ambos son paralelos, el circulo polar es paralelo",
+      "incorrect_answers": [
+        "No serian perpendicular por que ambos son diagonales, el circulo polar es diagonal",
+        "No serian perpendicular por que ambos son paralelos, el circulo polar es perpendicular",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Los azimuts están medidos desde el norte y los rumbos desde el sur ",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Los azimuts están medidos desde el este y los rumbos desde el sur",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Es la dirección que señala la aguja de una brújula, a la del polo norte magnético, dirección que no coincide con la del polo norte geográfico",
+      "correct_answer": "Norte magnético",
+      "incorrect_answers": [
+        "Sur magnético",
+        "Este magnético",
+        "Oeste Magnético"
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Cual es la diferencia entre el rumbo y contrarumbo?",
+      "correct_answer": "Cuando se trata del rumbo de la misma línea, pero observado desde el extremo opuesto se habla de rumbo inverso o contra-rumbo.",
+      "incorrect_answers": [
+        "Cuando se trata del rumbo de la misma perpendicular, pero observado desde el extremo opuesto se habla de rumbo natural o contra-rumbo.",
+        "Cuando se trata del rumbo de la misma línea, pero observado desde el extremo adyacente se habla de rumbo inverso o contra-rumbo.",
+        "Cuando se trata del rumbo de la misma línea, pero observado desde el extremo paralelo se habla de rumbo inverso o contra-rumbo."
+      ]
+    },
+    {
+      "category": "Geodesia",
+      "question": "La diferencia de nuestro Polo Norte geográfico que es fijo, el norte magnético de la Tierra se desplaza con el tiempo, concretamente a unos 15 km/año. Recientemente nuevas observaciones han comprobado que está entorno a los 50-60 km/año hacia Siberia.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Son las zonas UTM y la tierra esta dividida en 60 de estos",
+      "correct_answer": "Husos",
+      "incorrect_answers": ["Meridianos", "Paralelos", "Ejes"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "Las zonas UTM son lo mismo que los Husos",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Los paralelos generan altitud?",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "¿Es lo mismo paralelo meridiano,que huso y banda?",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Geodesia",
+      "question": "",
+      "correct_answer": "Distancia elipsoidal, azimuts directos azimut inverso, convergencia de meridianos, exceso esferico y grafica",
+      "incorrect_answers": [
+        "Distancia elipsoidal, azimuts directos azimut inverso, convergencia de latitudes, exceso esferico y grafica",
+        "Distancia elipsoidal, azimuts directos azimut reverso, convergencia de meridianos, exceso esferico y grafica",
+        "Distancia elipsoidal, azimuts directos azimut inverso, convergencia de elipsoides, exceso magnetico y grafica"
+      ]
+    },
+    {
+      "category":"Geodesia",
+      "question":"Con la formula Vincenty se obtiene las distancias de los puntos implementados sobre la superficie de la tierra ",
+      "correct_answer":"Verdadero",
+      "incorrect_answers":["Falso"]
+    },
+    {
+      "category":"Geodesia",
+      "question":"Con la formula Vincenty no se puede obtener las distancias de los puntos implementados sobre la superficie de la tierra",
+      "correct_answer":"Verdadero",
+      "incorrect_answers":["Falso"]
     }
   ]
 }
