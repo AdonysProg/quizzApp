@@ -43,6 +43,7 @@ function App() {
   };
   return preguntas.length > 0 ? (
     <div className="container my-4">
+    <span className="p-3 bg-white rounded text-purple-900 font-bold mb-10">Pregunta {currentIndex + 1} de {preguntas.length}</span>
       {currentIndex >= preguntas.length ? (
         <div className="h-screen m-20 resultados">
           <h1 className="text-3xl text-white font-bold bg-green-500 p-10 rounded shadow-lg m-5 text-center">
@@ -57,6 +58,7 @@ function App() {
       ) : (
         <Cuestionario
           data={preguntas[currentIndex]}
+          index={currentIndex + 1}
           handleAnswer={handleAnswer}
           handleNextPage={handleNextPage}
           showAnswer={showAnswer}

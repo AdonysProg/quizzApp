@@ -2,6 +2,7 @@
   "response_code": 0,
   "results": [
     {
+      "category": "Geodesia",
       "question": "¿Cómo obtengo la altura ortometrica o altitud? ",
       "correct_answer": "Para conocer la altitud o altura ortométrica; es decir, respecto al nivel del mar, se debe restar el valor de la anomalía a la altura elipsoidal obteniendo en este caso una altitud de 160,3 metros.",
       "incorrect_answers": [
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "category": "Geodesia",
       "question": "¿A qué paralelo corresponde una latitud de cero grados?",
       "correct_answer": "Corresponde a la linea del Ecuador",
       "incorrect_answers": [
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "category": "Geodesia",
       "question": "¿Cuáles son las coordenadas UTM para el hemisferio sur?",
       "correct_answer": "Perú: 17,18,19; Bolivia: 19,20,21; Argentina: 18,19.20,21,22; Chile: 18,19; Paraguay: 20,21; Uruguay: 21,22; Brasil: de 18 a 25; Ecuador: 17 y 18; pero con segmentos en los hemisferios norte y sur. Colombia: 17, 18 y 19 y también tiene en los dos hemisferios Venezuela solo está en el hemisferio norte, entre las zonas 18, 19, 20 y 21 Guayanas y Surinam están entre las zonas 20, 21 y 22",
       "incorrect_answers": [
@@ -29,11 +32,13 @@
       ]
     },
     {
+      "category": "Geodesia",
       "question": "¿A que palabra se le atribuye el significado de: se utiliza para referenciar cualquier punto de la superficie terrestre, utilizando para ello un tipo particular de proyección cilíndrica para representar la Tierra sobre el plano.",
       "correct_answer": "UTM",
       "incorrect_answers": ["GPS", "Elipsoide", "Coordenadas"]
     },
     {
+      "category": "Geodesia",
       "question": "El factor de escala UTM Es una proyección cilíndrica conforme. El factor de escala en la dirección del paralelo y en la dirección del meridiano son iguales (h = k). ",
       "correct_answer": "Verdadero",
       "incorrect_answers": ["Falso"]
@@ -575,8 +580,8 @@
     {
       "category":"Geodesia",
       "question":"Con la formula Vincenty no se puede obtener las distancias de los puntos implementados sobre la superficie de la tierra",
-      "correct_answer":"Verdadero",
-      "incorrect_answers":["Falso"]
+      "correct_answer":"Falso",
+      "incorrect_answers":["Verdadero"]
     }
   ]
 }
