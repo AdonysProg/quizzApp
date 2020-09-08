@@ -58,7 +58,6 @@ function App() {
       ) : (
         <Cuestionario
           data={preguntas[currentIndex]}
-          index={currentIndex + 1}
           handleAnswer={handleAnswer}
           handleNextPage={handleNextPage}
           showAnswer={showAnswer}

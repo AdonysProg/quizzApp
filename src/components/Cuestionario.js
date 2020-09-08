@@ -4,7 +4,6 @@ const Cuestionario = ({
   showAnswer,
   handleNextPage,
   handleAnswer,
-  index,
   data: { question, correct_answer, answers},
 }) => {
   
@@ -13,7 +12,7 @@ const Cuestionario = ({
       <div className="bg-white text-purple-800 p-10 rounded-lg shadow-md">
         <h2
           className="text-2xl text-center"
-          dangerouslySetInnerHTML={{ __html:index +') ' + question }}
+          dangerouslySetInnerHTML={{ __html:question }}
         />
       </div>
       <div className="grid grid-cols-2 gap-6 mt-6">
