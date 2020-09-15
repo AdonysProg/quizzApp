@@ -1,0 +1,45 @@
+.time-circulo{
+    width: 100%;
+    max-width: 20rem;
+    position: relative;
+    display: grid;
+  }
+  
+  .time-circulo::before {
+    border: 0.4rem solid #fafafa;
+    border-radius: 30%;
+    animation: 1s linear infinite alternate abberation, 4s linear infinite spin;
+    padding-top: 75%;
+    content: "";
+    position: relative;
+    pointer-events: none;
+    z-index: -1;
+  }
+  @keyframes abberation {
+    from {
+      box-shadow: 0 0 0 0 #ff00ea, 0 0 0 0 #ff0000;
+    }
+    to {
+      box-shadow: 0.25rem 0.125rem 0 0 #ff8800, -0.25rem -0.125rem 0 0 #ff0000;
+    }
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .time{
+    font-size: 5rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+

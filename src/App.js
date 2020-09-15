@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Cuestionario } from "./components";
-import { render } from "@testing-library/react";
+import { Timer } from "./components/timer/timer.component";
 
 //const API_URL = "https://quizzgeoapi.herokuapp.com/preguntas";
 
@@ -10,7 +10,9 @@ function App() {
   const [score, setScore] = useState(0);
   const [badScore, setBadScore] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
-
+  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [isRunning, setIsRunning] = useState(true);
   useEffect(() => {
     fetch(`./data.json`)
       .then((res) => res.json())
@@ -26,7 +28,16 @@ function App() {
           }));
         setPreguntas(preguntas);
       });
-  }, []);
+    if (isRunning) {
+      window.setInterval(() => {
+        setSeconds((seconds) => seconds + 1);
+      }, 1000);
+    }
+  }, [isRunning]);
+  if (seconds >= 60) {
+    setMinutes(minutes + 1);
+    setSeconds(0);
+  }
   const handleAnswer = (answer) => {
     if (!showAnswer) {
       if (answer === preguntas[currentIndex].correct_answer) {
@@ -43,9 +54,13 @@ function App() {
   };
   return preguntas.length > 0 ? (
     <div className="container my-4">
-    <span className="p-3 bg-white rounded text-purple-900 font-bold mb-10">Pregunta {currentIndex + 1} de {preguntas.length}</span>
+      <Timer minutes={minutes} seconds={seconds} />
+      <span className="p-3 bg-white rounded text-purple-900 font-bold mb-10">
+        Pregunta {currentIndex + 1} de {preguntas.length}
+      </span>
       {currentIndex >= preguntas.length ? (
         <div className="h-screen m-20 resultados">
+          <Timer minutes={minutes} seconds={seconds} /> 
           <h1 className="text-3xl text-white font-bold bg-green-500 p-10 rounded shadow-lg m-5 text-center">
             Has respondido {score} preguntas correctamente.
           </h1>
