@@ -1,0 +1,507 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿1.Cuáles son los principios más útiles en las aplicaciones de mecánica de fluidos.?",
+      "correct_answer": "El balance de materia o ecuación de continuidad, las ecuaciones del balance de cantidad de movimiento y el balance de energía mecánica.",
+      "incorrect_answers": [
+        "El balance de materia o ecuación de continuidad, las ecuaciones del balance de cantidad de movimiento y el balance de energía continua.",
+        "El balance de materia o ecuación de continuidad, las ecuaciones del balance de cantidad de la fuerza y el balance de energía mecánica.",
+        "Ninguna de las anteriores."
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Parte de la hidráulica que estudia las leyes del movimiento del líquido y sus interacciones con superficies móviles e inmóviles. Este movimiento está definido a un campo vectorial de velocidades que corresponde a las partículas del fluido y un campo escalar de presiones que corresponde a los distintos puntos del mismo.",
+      "correct_answer": "Hidrodinámica",
+      "incorrect_answers": ["Hidrostática"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿3.Cuáles son los 3 principios fundamentales aplicables al flujo de fluidos.?",
+      "correct_answer": "Principio de conservación de la masa, principio de energía cinética y el principio de cantidad de movimiento.",
+      "incorrect_answers": [
+        "Principio de energía dinámica, principio de conservación de la masa y el principio de cantidad de movimiento",
+        "Principio de energía dinámica, principio de conservación de la masa y el principio de cantidad de estática",
+        "Principio de conservación de la masa, principio de energía dinámica y el principio de cantidad de movimiento"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué establece el principio de conservación de la masa?",
+      "correct_answer": "Establece la ecuación de continuidad",
+      "incorrect_answers": [
+        "Se deducen ecuaciones aplicables al flujo de fluidos",
+        "Se deducen ecuaciones para calcular fuerzas dinámicas",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué establece el principio de energía cinética?",
+      "correct_answer": "Se deducen ecuaciones aplicables al flujo de fluidos",
+      "incorrect_answers": [
+        "Se deducen ecuaciones para calcular fuerzas dinámicas",
+        "Ninguna de las anteriores",
+        "Establece la ecuación de continuidad"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué establece el principio de cantidad de movimiento?",
+      "correct_answer": "Se deducen ecuaciones para calcular fuerzas dinámicas",
+      "incorrect_answers": [
+        "Se deducen ecuaciones aplicables al flujo de fluidos",
+        "Ninguna de las anteriores",
+        "Establece la ecuación de continuidad"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El ..... se usa más en aplicaciones de ingeniería; en él, las partículas se mueven con trayectorias irregulares. En el flujo ..... las partículas se mueven en trayectorias lisas, en este flujo se cumple la ley de Newton de la viscosidad.",
+      "correct_answer": "Flujo de fluidos a régimen turbulento o laminar",
+      "incorrect_answers": [
+        "Flujo de fluidos a régimen permanente o no permanente",
+        "Flujo de fluidos comprensible o incompresible",
+        "Flujo de fluidos viscoso o no viscoso"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Un fluido es ..... cuando las propiedades del fluido y su condición de movimiento en cualquier punto no cambia, se toma en cuenta la velocidad de las partículas dv/dt=0. Sería no .... cuando a través de una tubería el caudal crezca y decrezca con el tiempo.",
+      "correct_answer": "Flujo de fluidos a régimen permanente o no permanente",
+      "incorrect_answers": [
+        "Flujo de fluidos a régimen turbulento o laminar",
+        "Flujo de fluidos rotacional o irrotacional",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Un fluido es ..... cuando el vector velocidad es idéntico dv/ds=0 (ds es desplazamiento en cualquier dirección). Es no ..... cuando dv/ds ≠0.",
+      "correct_answer": "Uniforme o no uniforme",
+      "incorrect_answers": [
+        "Compresible o incompresible",
+        "Permanente o no permanente",
+        "Viscoso o no viscoso"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "En el flujo de fluidos ..... o ...... se toma en cuenta la densidad, los gases son fácilmente compresibles y los líquidos son incompresibles por su densidad constante en el tiempo.",
+      "correct_answer": "Compresible o incompresible.",
+      "incorrect_answers": [
+        "Viscoso o no viscoso",
+        "Rotacional o irrotacional",
+        "Uniforme o no Uniforme"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El flujo de fluidos viscoso o no viscoso es aquel que no fluye con facilidad (se disipa energía). En los no viscosos, la viscosidad cero significa que el fluido fluye con total facilidad sin disipación de energía",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Los fluidos rotacionales o irrotacional es cuando el fluido presenta movimiento de traslación y rotación. Irrotacional es cuando no se cumple lo anterior (lo contrario). ",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Se refiere a una masa determinada de material, diferenciada del resto (medio ambiente).",
+      "correct_answer": "Sistema",
+      "incorrect_answers": ["Newton", "Materia", "Ninguna de las anteriores"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué establece el principio de conservación de la masa.?",
+      "correct_answer": "Establece que la masa del interior de un sistema permanece constante con el tiempo. dm/dt=0 ",
+      "incorrect_answers": [
+        "Establece que la masa del interior de una materia permanece constante con el tiempo. dm/dt=0 ",
+        "Establece que la masa del interior de un sistema permanece constante con el tiempo. dm/dt=-0",
+        "Establece que la masa del interior de una materia permanece constante con el tiempo. dm/dt=-0 "
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿A qué principio pertenece Masa entrante/tiempo = masa saliente/tiempo + incremento de masa/tiempo?",
+      "correct_answer": "Principio de conservación de la masa",
+      "incorrect_answers": [
+        "Principio de conservación de la materia",
+        "Principio de conservación del tiempo",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es una región fija del espacio usada en el análisis de situaciones donde el movimiento está dentro y fuera del espacio fijo.",
+      "correct_answer": "Ambas son correctas",
+      "incorrect_answers": [
+        "Sistema abierto",
+        "Ninguna de las anteriores",
+        "Volumen de control"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué es un proceso?",
+      "correct_answer": "Conjunto de estados por los que pasa el sistema tales como los cambios de velocidad, nivel, presión, etc.",
+      "incorrect_answers": [
+        "Conjunto de fases por los que pasa el sistema tales como los cambios de velocidad, nivel, presión, etc.",
+        "Conjunto de estados por los que pasa el sistema tales como los cambios de la materia, nivel, altura, etc.",
+        "Conjunto de fases por los que pasa la ecuación tales como los cambios de velocidad, nivel, presión, etc."
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Cualquier tipo de proceso es reversible",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Cualquier tipo de proceso es irreversible",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Se denomina a la “irreversibilidad” de un proceso su “trabajo perdido”",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Perdidas cuando se refiere a irreversibilidad o trabajo perdido, no es pérdida de energía.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Perdidas cuando se refiere a reversibilidad o trabajo perdido, no es pérdida de energía.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Son curvas imaginarias dibujadas a través de un fluido en movimiento, indican la dirección de este. La tangente a estas curvas es la velocidad instantánea en ese punto. Las tangentes son la dirección media de la velocidad.",
+      "correct_answer": "Lineas de corriente",
+      "incorrect_answers": [
+        "Tubos de corriente",
+        "Lineas imaginarias",
+        "Lineas de flujo"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Está constituido por una región parcial del flujo de fluido delimitada por una familia de líneas de corriente, que la confinan.",
+      "correct_answer": "Tubos de corriente",
+      "incorrect_answers": [
+        "Lineas de corriente",
+        "Lineas imaginarias",
+        "Lineas de flujo"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué es el caudal?",
+      "correct_answer": "Es el volumen de fluido por unidad de tiempo que pasa a través de una sección transversal a la corriente del fluido. Q=V/t (Q es caudal, V es volumen y t es tiempo). También está la ecuación de continuidad Q=v*A (Q es caudal, v es velocidad y A es área)",
+      "incorrect_answers": [
+        "Es el volumen de fluido por unidad de tiempo que pasa a través de una sección transversal a la corriente del fluido. Q=V/t (Q es caudal, V es velocidad y t es tiempo). También está la ecuación de continuidad Q=v*A (Q es caudal, v es viscosidad y B es área)",
+        "Es el volumen de fluido por unidad de tiempo que pasa a través de una sección transversal a la corriente del fluido. Q=V/t (Q es caudal, V es volumen y t es tiempo). También está la ecuación de continuidad Q=v*A (Q es caudal, v es viscosidad y A es área)",
+        "Es el volumen de fluido por unidad de tiempo que pasa a través de una sección transversal a la corriente del fluido. Q=V/t (Q es caudal, V es velocidad y t es tiempo). También está la ecuación de continuidad Q=v*A (Q es caudal, v es viscosidad y A es área)"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "La ecuación de continuidad es una consecuencia de la conservación de la masa. ",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Explica por qué la velocidad de salida en un orificio de salida es mayor cuanto menor es el diámetro de la boquilla de salida, o por qué la velocidad de la sangre es diferente en las arterias que en los capilares.",
+      "correct_answer": "Ecuación de continuidad",
+      "incorrect_answers": [
+        "Ecuación de Bernoulli",
+        "Ecuación de la compresibilidad",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Cuál es la ecuación de Euler?",
+      "correct_answer": "p/γ+v^2/2g+z=0",
+      "incorrect_answers": [
+        "p/v+v^2/2g+z=0",
+        "p/z+v^2/2g+z=0",
+        "p/γ+v^2/2g+p=0"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El teorema establece que el trabajo aplicado por una fuerza resultante que actúa sobre un SISTEMA es igual al cambio de la energía cinética de dicho SISTEMA. W=∆K=K-Ko",
+      "correct_answer": "Teorema de Trabajo y energía",
+      "incorrect_answers": [
+        "Teorema de Trabajo y energía cinética",
+        "Teorema del Trabajo",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El Principio de Bernoulli o Trinomio de Bernoulli. Describe el movimiento de un fluido a lo largo de una línea de corriente, expresa que, en un fluido ideal, la energía del fluido permanece constante a lo largo de su recorrido.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El Principio de Bernoulli o Trinomio de Bernoulli. Describe el movimiento de un sistema a lo largo de una línea de corriente, expresa que, en un fluido ideal, la energía del fluido permanece constante a lo largo de su recorrido.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Cuáles son las 3 componentes de la energía de un fluido en cualquier momento?",
+      "correct_answer": "Cinético, Potencial gravitacional y Energía de flujo",
+      "incorrect_answers": [
+        "Estático, Potencial gravitacional y Energía de flujo",
+        "Cinético, Potencial gravitacional y Energía estática",
+        "Cinético, Potencial gravitacional y Energía de gravitacional"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es la Energía por la velocidad del fluido",
+      "correct_answer": "Cinética",
+      "incorrect_answers": ["Potencial gravitacional", "Flujo", "Estática"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es la energía por la altitud que se presente",
+      "correct_answer": "Potencial Gravitacional",
+      "incorrect_answers": ["Cinética", "Giratoria", "Dinámica"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es la energía que se presenta por la presión que tiene",
+      "correct_answer": "Flujo",
+      "incorrect_answers": ["Cinética", "Gravitacional", "Dinámica"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es el cociente entre el área de la sección mojada y el perímetro mojado (es el contorno de la sección que está en contacto con el agua.",
+      "correct_answer": "Radio hidráulico",
+      "incorrect_answers": [
+        "Radio estático",
+        "Radio húmedo",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué quiere decir modelo en hidráulica?",
+      "correct_answer": "Corresponde a un sistema que simula un objeto real llamado prototipo.",
+      "incorrect_answers": [
+        "Corresponde a un modelo o prototipo que simula un objeto real llamado sistema.",
+        "Corresponde a un prototipo que simula un objeto real llamado modelo.",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Representa a escala al objeto real o prototipo, tal como un fenómeno, una estructura o máquina, y cumple ciertas condiciones matemáticas definidas.",
+      "correct_answer": "Modelo hidráulico",
+      "incorrect_answers": [
+        "Modelo matemático",
+        "Modelo analógico",
+        "Modelo dimensional"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Conjunto de hipótesis y relaciones de las variables que describen un fenómeno, que conduce a un problema matemático necesario resolver.",
+      "correct_answer": "Modelo matemático",
+      "incorrect_answers": [
+        "Modelo explicativo",
+        "Modelo analógico",
+        "Modelo sistemático"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El modelo analógico explica que: Dos fenómenos físicos de diferente naturaleza se llaman analógicos si las ecuaciones que los describen se expresan con formas matemáticas idénticas, sin importar que los símbolos de ellas tengan significado diferente.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Cuáles son las magnitudes fundamentales según dos enfoques distintos?",
+      "correct_answer": "Longitud, Fuerza, Tiempo LFT y Longitud, Masa, Tiempo LMT",
+      "incorrect_answers": [
+        "Longitud, Fuerza, Tiempo LFT y Longitud, Masa, Tiempo LMT",
+        "Magnitud, Fuerza, Tiempo LFT y Longitud, Masa, Tiempo LMT",
+        "Longitud, Fuerza, Tiempo LFT y Viscosidad, Masa, Tiempo LMT"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Cuáles son las aplicaciones del análisis dimensional?",
+      "correct_answer": "Conversión de unidades, desarrollo de ecuaciones, reducción del número de variables, establecer principios para el diseño de modelos y cálculo de errores.",
+      "incorrect_answers": [
+        "Conversión de magnitudes, desarrollo de ecuaciones, reducción del número de variables, establecer principios para el diseño de modelos y cálculo de errores.",
+        "Conversión de unidades, desarrollo de dimensiones, reducción del número de variables, establecer principios para el diseño de modelos y cálculo de errores.",
+        "Conversión de sistemas o dimensiones, desarrollo de ecuaciones, reducción del número de variables, establecer principios para el diseño de modelos y cálculo de errores."
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Cuáles son los parámetros adimensionales usados en nuestro campo?",
+      "correct_answer": "Son 5. El coeficiente de presión, el número de Reynolds, el número de Froude, el número de Weber, y el número de Mach.",
+      "incorrect_answers": [
+        "Son 4. El número de Reynolds, el número de Froude, el número de Weber, y el número de Antonio.",
+        "Son 5. El coeficiente de gravedad, el número de Reynolds, el número de Froude, el número de Weber, y el número de Mach.",
+        "Son 5. El coeficiente de presión, el número estático, el número de Reynolds, el número de Weber, y el número de Mach."
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El coeficiente de presión: Es la relación entre la presión y la presión dinámica(1/2)∆p(ρ.v^2). Cuando se lo multiplica por el área es la relación de la fuerza de presión a la fuerza de inercia(1/2)(ρ.v^2)A. También puede ser 1/2∆h(ρ.v^2/g), dividiendo por el peso específico, es la relación de las fuerzas de presión a las fuerzas de inercia.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El coeficiente de presión: Es la relación entre la presión y la presión dinámica(1/2)∆p(ρ.v^2). Cuando se lo multiplica por el área es la relación de la fuerza de presión a la fuerza de inercia(1/2)(ρ.v^2)A. También puede ser 1/2∆h(ρ.v^2/g), dividiendo por el peso específico, es la relación de las fuerzas de presión a las fuerzas de la estática.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "VDρ/μ es la relación de las fuerzas de inercia y las de la viscosidad.",
+      "correct_answer": "Número de Reynolds",
+      "incorrect_answers": [
+        "Número de Froude",
+        "Número de Weber",
+        "Número de Mach"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "V^2/gL multiplicado y dividido por ρA, da la relación de la fuerza dinámica.",
+      "correct_answer": "Número de Froude",
+      "incorrect_answers": [
+        "Número de Weber",
+        "Número de Reynolds",
+        "Número de Mach"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "V^2 L_ρ/σ es la relación de las fuerzas de inercia a las tensiones superficiales.",
+      "correct_answer": "Número de Weber",
+      "incorrect_answers": [
+        "Número de Reynolds",
+        "Número de Froude",
+        "Número de Mach"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "V/c o V/(E/ρ)1/2 mide la relación entre las fuerzas de inercia y las fuerzas elásticas",
+      "correct_answer": "Número de Mach",
+      "incorrect_answers": [
+        "Número de Reynolds",
+        "Número de Froude",
+        "Número de Weber"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "En flujo compresible, el número de Mach es generalmente más significativo que el número de Reynolds.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "En flujo compresible, el número de Mach es generalmente menos significativo que el número de Reynolds.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Existe esta semejanza entre modelo y prototipo cuando las relaciones entre todas las dimensiones correspondientes u homólogas son iguales.",
+      "correct_answer": "Semejanza hidráulica",
+      "incorrect_answers": [
+        "Semejanza cinemática",
+        "Semejanza dinámica",
+        "Semejanza sistemática"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Existe esta semejanza cuando las trayectorias de las partículas móviles homólogas, son geométricamente semejantes y cuando las relaciones entre las velocidades de las partículas homólogas son iguales.",
+      "correct_answer": "Semejanza cinemática entre modelo y prototipo",
+      "incorrect_answers": [
+        "Semejanza cinemática entre modelo y prototipo",
+        "Semejanza cinemática entre sistema y materia",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Si tenemos 2 sistemas semejantes, geométrica y cinemáticamente, puede existir semejanza dinámica si las relaciones entre las fuerzas homólogas son iguales entre modelo y prototipo.",
+      "correct_answer": "Semejanza dinámica",
+      "incorrect_answers": [
+        "Semejanza Igualitaria",
+        "Semejanza Matemática",
+        "Semejanza Cinemática"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "¿Qué quiere decir dimensión en física?",
+      "correct_answer": "Por lo regular denota la naturaleza física de una cantidad.",
+      "incorrect_answers": [
+        "Por lo regular denota la naturaleza física de una cantidad.",
+        "Por lo regular denota la naturaleza física de una materia.",
+        "Por lo regular denota la naturaleza física de un sistema."
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Sirve para expresar las magnitudes derivadas en términos de magnitudes fundamentales, para comprobar la veracidad de las fórmulas físicas, para construir ecuaciones y reducir fórmulas o ecuaciones a partir de datos experimentales. ",
+      "correct_answer": "Fines del análisis dimensional",
+      "incorrect_answers": [
+        "Fines del análisis bidimensional",
+        "Fines del análisis cinemático",
+        "Ninguna de las anteriores"
+      ]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El principio de homogeneidad dimensional establece que, si una expresión o ecuación matemática es correcta, se debe cumplir que todos sus elementos de ambos lados de la ecuación, deben ser dimensionalmente homogéneos.",
+      "correct_answer": "Verdadero",
+      "incorrect_answers": ["Falso"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "El principio de homogeneidad dimensional establece que, si una expresión o sistema matemático es correcta, se debe cumplir que todos sus elementos de ambos lados de la ecuación, deben ser dimensionalmente diferentes.",
+      "correct_answer": "Falso",
+      "incorrect_answers": ["Verdadero"]
+    },
+    {
+      "category": "Resistencia de Materiales",
+      "question": "Es un método de construcción de parámetros adimensionales y ecuaciones, a partir de las 3 magnitudes fundamentales Longitud L, Masa M y Tiempo T o Longitud L, Fuerza F y Tiempo T.",
+      "correct_answer": "Teorema de π de Buckingham.",
+      "incorrect_answers": [
+        "Teorema de π de Weber.",
+        "Teorema de π de Bucklevoh.",
+        "Teorema de π de Buchikmah."
+      ]
+    }
+  ]
+}
