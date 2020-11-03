@@ -14,7 +14,7 @@ function App() {
   const [minutes, setMinutes] = useState(0);
   const [isRunning, setIsRunning] = useState(true);
   useEffect(() => {
-    fetch(`./dataHidra.json`)
+    fetch(`./data.json`)
       .then((res) => res.json())
       .then((data) => {
         const preguntas = data.results
